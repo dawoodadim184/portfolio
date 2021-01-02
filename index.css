@@ -1,0 +1,68 @@
+body {
+	margin: 0px;
+}
+
+/*body-header*/
+
+#body-header {
+	height: 65vh;
+	background-image: url(pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	background-attachment: fixed;
+}
+/*Text in Center*/
+.text-center{
+	text-align: center;
+}
+
+/*Horizontal List*/
+.horizontal-list {
+	list-style: none;
+	padding-left: 0px;
+	margin-bottom: 140px;
+	
+}
+
+.horizontal-list li {
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
+}
+
+.horizontal-list li a {
+	color: black;
+	text-decoration: none;
+	
+}
+
+#nav-menu li a{
+	transition: color 0.9s, border-bottom 4s;
+}
+.nav-menu li a:hover {
+	color: lightgrey;
+	border-bottom: 1px solid white;
+}
+
+#my-name {
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+	
+	padding: 10px;
+	border-radius: 80%;
+	font-size: 1rem;
+}
+
+.social-icons li a i:hover{
+	box-shadow: 0px 0px 6px rgba(230,196,196,0.3);
+}
+
+
+
+
